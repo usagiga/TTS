@@ -6,7 +6,7 @@ namespace Usagiga.TTS.Softalk
     /// Parameters used when executing voice through Softalk.
     /// You must initialize them correctly, before using/calling.
     /// </summary>
-    class Context
+    public class Context
     {
         private string word;
         private int volume = 100;

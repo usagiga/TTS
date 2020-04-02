@@ -4,7 +4,7 @@ using System.IO;
 
 namespace Usagiga.TTS.Softalk
 {
-    class Executor : IDisposable
+    public class Executor : IDisposable
     {
         /// <summary>
         /// Create `Executor`.
