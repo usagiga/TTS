@@ -55,7 +55,8 @@ namespace Usagiga.TTS.Softalk
             // Create specific dir if the dir doesn't exist.
             Directory.CreateDirectory(baseDir);
 
-            Run(args);
+            var proc = Run(args);
+            proc.WaitForExit();
         }
 
         /// <summary>
